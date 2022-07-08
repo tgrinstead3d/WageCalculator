@@ -16,15 +16,14 @@ function DateRangePicker() {
     return (
         <>
             <form className="flex flex-col font-sans w-[100%]">
-                <label>Pick your start date / time.</label>
-                <div className="flex flex-row">
-                    <input type="datetime-local" className="input input-bordered w-full max-w-xs"/>
-                    <button type="button" onClick={handleDateStartSubmit} className="btn btn-primary ml-2">OK</button>
+                <label className="block text-gray-500">Pick your start date / time.</label>
+                <div className="flex flex-row mb-2">
+                    <input type="datetime-local" className="input input-bordered w-full max-w-full"/>
                 </div>
-                <label>Pick your end date / time.</label>
-                <div className="flex flex-row">
-                    <input type="datetime-local" className="input input-bordered w-full max-w-xs flex flex-row"/>
-                    <button type="button" onClick={handleDateEndSubmit} className="btn btn-primary ml-2">OK</button>
+                <label className="block text-gray-500">Pick your end date / time.</label>
+                <div className="flex flex-col">
+                    <input type="datetime-local" className="input input-bordered w-full max-w-full flex flex-row"/>
+                    <button type="submit" onClick={handleDateEndSubmit} className="btn btn-primary mt-4 max-w-full">OK</button>
                 </div>
             </form>
         </>

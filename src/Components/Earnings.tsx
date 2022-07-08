@@ -2,7 +2,7 @@ import "./../index.css";
 
 function Earnings() {
     return (
-        <div className="mt-4">
+        <div className="mt-6">
         <div className="stats shadow bg-emerald-50">
 
             <div className="stat">
