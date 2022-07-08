@@ -1,0 +1,9 @@
+.DateInput {
+    display: flex;
+    flex-direction: row;
+}
+.DateInputForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
