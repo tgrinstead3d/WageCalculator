@@ -1,9 +1,0 @@
-.WageInput {
-    display: flex;
-    flex-direction: row;
-}
-.WageInputForm {
-    display: flex;
-    flex-direction: column;
-    max-width: 200px;
-}

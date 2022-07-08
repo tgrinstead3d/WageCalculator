@@ -1,17 +1,17 @@
 import WageInput from "./Components/WageInput.tsx";
 import DateRangePicker from "./Components/DateRangePicker.tsx";
-import {useState} from "react";
+// import {useState} from "react";
 import Earnings from "./Components/Earnings.tsx";
 import "./index.css";
 
 
 function App() {
 
-    const moment = require('moment');
+    // const moment = require('moment');
+    //
+    // let now = moment().format('LT');
 
-    let now = moment().format('LT');
-
-    const [time, setTime] = useState(now);
+    // const [time, setTime] = useState(now);
 
     return (
         <div className="flex pt-12 items-start justify-center h-screen w-screen bg-stone-200 font-sans">
