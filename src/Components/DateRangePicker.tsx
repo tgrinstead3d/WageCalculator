@@ -1,11 +1,7 @@
 // import "./../Styles/DateInput.css"
 
-const handleDateStartSubmit = (e) => {
-    console.log('Start Date Submitted!')
-    e.preventDefault();
-}
-const handleDateEndSubmit = (e) => {
-    console.log('End Date Submitted!')
+const handleSubmit = (e) => {
+    console.log('Date and Time Submitted!')
     e.preventDefault();
 }
 
@@ -23,7 +19,7 @@ function DateRangePicker() {
                 <label className="block text-gray-500">Pick your end date / time.</label>
                 <div className="flex flex-col">
                     <input type="datetime-local" className="input input-bordered w-full max-w-full flex flex-row"/>
-                    <button type="submit" onClick={handleDateEndSubmit} className="btn btn-primary mt-4 max-w-full">OK</button>
+                    <button type="submit" onClick={handleSubmit} className="btn btn-primary mt-4 max-w-full">OK</button>
                 </div>
             </form>
         </>
